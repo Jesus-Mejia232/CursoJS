@@ -22,7 +22,7 @@ const resultado = 10 + 10;
 
 let numero = 10;
 numero += 4;
-
+    
 console.log(numero)
 
 /*Operadores de comparacion

@@ -33,3 +33,4 @@ const miVaribale = null;
 
 // Undefined se usa para indicar que un valor no esta definido 
 const miVariable2 = undefined;
+
