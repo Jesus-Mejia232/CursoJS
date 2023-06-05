@@ -36,3 +36,4 @@ persona.pais = "Rusia";
 // toca poner parentesis para indicar que queremos activar el metodo:
 
 persona.saludo()
+
