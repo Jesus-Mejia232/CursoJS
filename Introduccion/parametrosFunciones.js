@@ -11,8 +11,21 @@ variable("Jesús");
 
 // Calculadora que va a sumar numeros:
 
-const sumando = () => {
-    console.log(`El resultado de la suma es ${num1 + num2}`);
-};
+const calculadora = (tipo, num1, num2) => {
+    switch(tipo){
+        case "suma":
+            console.log(`El resultado de la suma es: ${num1 + num2}`);
+            break;
+        case "resta":
+            console.log(`El resultado de la resta es: ${num1 - num2}`);
+            break;
+        case "multiplicacion":
+            console.log(`El resultado de la multiplicacion es: ${num1 * num2}`);
+            break;
+        case "division":
+            console.log(`El resultado de la división es: ${num1 / num2}`);
+            break;
+    }
+}
 
-sumando(2,3);
+calculadora("suma",7,10);
