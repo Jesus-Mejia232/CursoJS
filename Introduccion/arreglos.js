@@ -14,3 +14,5 @@ console.log("El arreglo tiene:" + colores.length + " Colores");
 colores.push("Azul"); // Push siver para agregar un elemento de ultimo al arreglo, sin necesidad de poner el indice en el que va
 
 console.log(colores)
+
+// Crear 
