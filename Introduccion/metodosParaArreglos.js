@@ -1,0 +1,2 @@
+/*Qué es un arreglo:
+*/
