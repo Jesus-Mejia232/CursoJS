@@ -32,3 +32,4 @@ switch(usuario.pais){
     default:
         console.log("El usuario es de otro pais"); // Es basicamente el "Else" del switch
 }
+//

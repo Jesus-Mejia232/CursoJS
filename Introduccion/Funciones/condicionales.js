@@ -1,3 +1,4 @@
+//? Condiconal "if" con "if else" 
 // const persona = {
 //     nombre: "Jesus",
 //     edad: 18,
@@ -14,6 +15,11 @@
 // } else{
 //     console.log("La persona no es mayor de edad, no puede entrar al concierto")
 // }
+
+
+//! ----------------------------------------------------------------------------------------------------------------------------
+
+//? Condicional "if" con "if else" (Optimo)
 
 const persona = {
     nombre: "Jesus Mejia",
