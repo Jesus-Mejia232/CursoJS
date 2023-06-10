@@ -24,11 +24,33 @@ console.log(colores.join(" - - "));
 
 /*.sort();: Es un metodo, nos permitirá ordenar un arreglo de cadenas de texto de forma alfabetica(también funciona con números). Otro 
 detalle es que el metodo .sort modifica el arreglo directamente, es decir que, cuando volvamos a invocar al mismo arreglo, ya nos 
-los arrojará en pantalla, ordenado, aunque no preicsamente estemos usando el metodo  ".sort"*/
+los arrojará en pantalla, ordenado, aunque no estemo invocando al metodo en ese momento*/
 
 const letras = ["C","D","A","B"];
 console.log(letras.sort());
 
 /*Si necesitamos ordenar las letras de forma descendente necesitaremos usar a ".reverse();"
 Al igual que ".sort()" también ordena de forma descendente números*/
-console.log(letras.reverse())
+console.log(letras.reverse());
+
+
+// Metodo .concat()ara
+
+const variable1 = ["A","B","C"];
+const variable2 = [1,2,3,4];
+const variableConvinada = variable1.concat(variable2);
+
+console.log(variableConvinada);
+
+
+/*Metodo .push(): Nos permite agregar un elemento al final del arreglo*/
+
+const numeros1 = [1,6,4,2,5,3];
+numeros1.push(7);
+
+console.log(numeros1);
+
+/*Con el metodo .pop() eliminamos el ultimo elemento del arreglo*/
+
+numeros1.pop();
+console.log(numeros1);
