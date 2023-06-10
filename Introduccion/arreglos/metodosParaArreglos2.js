@@ -52,4 +52,7 @@
 
 //? Método .indexof() Con este metodo obtenemos el index de un eleemnto, si no hay elementos nos devuelve -1
         const nombres = ["Jesus","Edgardo","Mejia","Acosta","Goku","Le","Gana","A","Todo"];
-        console.log(nombres.indexOf("Mejia"));
+        console.log(`El usuario con nombre "Jesus" se encuentra en el indice numero: ${nombres.indexOf("Vegeta")}`);
+        //* Un dato importante es que esto nos arrojará el primer index del elemento, es decir, si el elemento está repetido, nos dará como resultado 
+        //* El indice en donde esté escrito primero.
+v
