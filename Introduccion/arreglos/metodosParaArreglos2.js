@@ -55,4 +55,5 @@
         console.log(`El usuario con nombre "Jesus" se encuentra en el indice numero: ${nombres.indexOf("Vegeta")}`);
         //* Un dato importante es que esto nos arrojará el primer index del elemento, es decir, si el elemento está repetido, nos dará como resultado 
         //* El indice en donde esté escrito primero.
-v
+
+        
