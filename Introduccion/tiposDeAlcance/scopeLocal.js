@@ -5,7 +5,7 @@
         var numero = 1; //* Variable Scope global
 
         var obtenerCantidad = (nombre) => {
-            var cantidad = nombre.length; // Variable Local Scope
+            var cantidad = nombre. th; // Variable Local Scope
             console.log(`Hola ${nombre} tu nombre tiene ${cantidad} letras`);
 
             var funcionAnidada = () => {

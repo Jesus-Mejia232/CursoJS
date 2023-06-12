@@ -62,4 +62,3 @@
 //? Con el metodo .pop() eliminamos el ultimo elemento del arreglo*/
         numeros1.pop();
 //      console.log(numeros1);
-
