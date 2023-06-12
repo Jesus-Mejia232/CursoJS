@@ -18,8 +18,16 @@
 //* Primer parametro: Index desde donde queremos cortar
 //* Segundo parametro (Opcional): Index hasta donde queremos cortar
 
-const texto = "Hola el mas fuerte es el mas inteligente ";
+const texto = "Hola el mas fuerte es el mas inteligente";
 const index = texto.indexOf('e');
-const lastIndex = texto.lastIndexOf(" ");
-const newVariable = texto.slice(index,lastIndex);
+const lastIndex = texto.lastIndexOf("e");
+const newVariable = texto.slice(index,lastIndex + 1);
 console.log(newVariable);
+
+//! ----------------------------------------------------------------------------------------------------------------------------
+
+//? .replace(): Sirve para remplazar una cadena de texto por otra
+//* Primer parametro: El texto que queremos remplazar
+//* Segundo parametro: El texto que queremos poner
+const variable1 = "Hola soy Jesus";
+console.log(variable1.replace("Jesus","Edgardo"));
