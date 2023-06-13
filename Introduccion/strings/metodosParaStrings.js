@@ -35,6 +35,13 @@
 //! ----------------------------------------------------------------------------------------------------------------------------
 
 //? .split() Convierte una cadena de texto en un arreglo.
-//* Tenemos que especificar donde cortar cada elemento.
+    //* Tenemos que especificar donde cortar cada elemento.
+    // const saludo = "Hola soy Jesus";
+    // console.log(saludo.split(" "));
+
+//! ----------------------------------------------------------------------------------------------------------------------------
+
+//? .toUpperCase .toLowerCase() --Devuelve una cadena de texto con todas minuscular/mayusculas
 const saludo = "Hola soy Jesus";
-console.log(saludo.split(" "));
+const todoMayus = saludo.toUpperCase();
+const todoMinus = saludo.toLowerCase();

@@ -46,3 +46,5 @@
         const ternario = 7 > 10 ? "El primer numero es mayor" : "El segundo numero es mayor"
 
         console.log(ternario)
+
+//! ----------------------------------------------------------------------------------------------------------------------------
