@@ -64,7 +64,7 @@
 
 //! ----------------------------------------------------------------------------------------------------------------------------
 
-//? .ach(): Nos permite ejecutar una funcion en cada elemento:
+//? .forEach(): Nos permite ejecutar una funcion en cada elemento:
         //* Los parametros que ponemos dentro de parentesis de la funcion de tipo flecha "("En estos parentesis") => {}" que creamos dentro del metodo ".forEach" 
         //* Son para, el primer parametro es para indicar que es cada elemento que está dentro del
         //* Arreglo, el segundo elemento es para crear la variable de en donde se estara alojando el index de cada elemento.
@@ -159,3 +159,4 @@ const nombres = ["Jesus","Edgardo","Mejia","Acosta","Jesus","Edgardo","Mejia","A
         // console.log(`El arreglo es invalido?: ${condiconal}`); 
 
 //! ----------------------------------------------------------------------------------------------------------------------------
+

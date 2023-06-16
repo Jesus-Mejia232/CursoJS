@@ -25,6 +25,6 @@ nombres.forEach((nombre) => {
 
 //? Mecionando cada elemento de una variable con for:
 
-for(nombres; nombres > 10; nombres){
-
-}
+for (let numero = 0; numero < nombres.length; numero++){
+    console.log(nombres[numero]);
+};
