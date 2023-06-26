@@ -1,9 +1,9 @@
 class User {
     tipo = "usuario";
 
-    constructor(nombre,apellido){
+    constructor(nombre,password){
         this.nombre = nombre;
-        this.apellido = apellido;
+        this.password = password;
     }
 
     obtenerPost(){
@@ -13,20 +13,38 @@ class User {
 }
 
 class Mod extends User {
-    constructo(nombre, password, permisos){
-        super(nombre,password) // Con super podemos copiar todas las propiedades y metodos de la clase anterior. Aqui basicamente lo que estamos haciendo es, remplazar el valor 
-        // de las dos variables, para esta clase, con los valores que esta clase reciba
+    constructor(nombre, password, permisos){
+        super(nombre,password); // Con super podemos copiar todas las propiedades y metodos de la clase anterior. Aqui basicamente lo que estamos haciendo es, remplazar el valor 
+        // de las dos variables, por el valor de esta clase, con los valores que esta clase reciba
         this.permisos = permisos;
     }
 
-    borrarPos(id){
-        if(this.permisos.include("borrar")){
-            console.log(`El post con el id ${id} ha sido eliminado`)
+    borrarPos(id) {
+        if(this.permisos.includes("borrar")){
+            console.log(`El post con el id ${id} ha sido eliminado`);
+        } else {
+            console.log("No tienes los permisos para borrar posts");
+        };
+    };
+};
+
+
+//? Creando otra clase, con un usuario tipo administrador(superior a un moderador)
+
+class Admin extends Mod {
+    constructor(nombre, password, permisos){
+        super(nombre, password, permisos);
+    }
+
+    eliminarUser(nombre){
+        if (this.permisos.includes("admin")){
+            console.log(`El user ${nombre} ha sido eliminado`)
         }
-    } 
+    }
 }
 
-
-
-user1 = new Mod("Jesus","Mejia","borrar","editar");
+const user1 = new Mod("Jesus","12234",["editar"]);
 user1.borrarPos(8);
+
+const newJesus = new Admin ("Admin","admin123",["admin","editar","eliminarUsers"]);
+newJesus.eliminarUser("user1");
