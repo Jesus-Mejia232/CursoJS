@@ -12,7 +12,7 @@ class User {
         this.nombre = nombre;
         this.apellido = apellido;
     };
-
+    
     obtenerNombre (){
         console.log("Obteniendo datos...");
         return `${this.nombre} ${this.apellido}`;
@@ -21,3 +21,7 @@ class User {
 
 const user = new User("Jesus","Mejia");
 console.log(user.obtenerNombre());
+
+//?Para ganar deje todo de lado 
+
+
