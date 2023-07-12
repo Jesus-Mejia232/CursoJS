@@ -44,7 +44,8 @@ class Admin extends Mod {
 }
 
 const user1 = new Mod ("Jesus","12234",["editar"]);
-user1.borrarPos(8);
+user1.borrarPos(4);
 
 const newJesus = new Admin ("Admin","admin123",["admin","editar","eliminarUsers"]);
 newJesus.eliminarUser("user1");
+

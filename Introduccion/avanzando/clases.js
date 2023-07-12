@@ -3,7 +3,7 @@
 //* Propiedades: Las clases pueden contener propiedades. Dentro de una clase se llaman propiedades.
 //* Constructor: Es un metodo especial para inicializar un objeto creado en una clase.
 //* Métodos: La clase puede contener funciones. Dentro de una clase se llaman métodos.
-
+//* Debo tronar las ampolas eb la piel
 
 class User {
     tipo = "Usuario";
@@ -21,7 +21,8 @@ class User {
 
 const user = new User("Jesus","Mejia");
 console.log(user.obtenerNombre());
+//* Amnistia
+//* Creando la funcion
+//* Siempre
 
-//?Para ganar deje todo de lado 
-
-
+//? 
