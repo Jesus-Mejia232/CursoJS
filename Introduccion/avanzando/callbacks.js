@@ -4,3 +4,5 @@ obtenerPost("jesus",(posts) => {
 })
 
 //? Guardando el callback, dentro de una variable
+
+//* Creando un modulo static Siempre dejando todo de l
