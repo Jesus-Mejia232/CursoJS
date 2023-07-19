@@ -48,3 +48,6 @@ user1.borrarPos(4);
 
 const newJesus = new Admin ("Admin","admin123",["admin","editar","eliminarUsers"]);
 newJesus.eliminarUser("user1");
+
+
+//? Creando modulos estaticos
