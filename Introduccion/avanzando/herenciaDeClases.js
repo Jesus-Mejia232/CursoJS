@@ -6,7 +6,7 @@ class User {
         this.password = password;
     }
 
-    obtenerPost(){
+    obtenerPosts () {
         const posts = ["post1","post2"];
         return posts;
     }
@@ -19,7 +19,7 @@ class Mod extends User {
         this.permisos = permisos;
     }
 
-    borrarPos(id) {
+    borrarPosts (id) {
         if(this.permisos.includes("borrar")){
             console.log(`El post con el id ${id} ha sido eliminado`);
         } else {
@@ -36,15 +36,18 @@ class Admin extends Mod {
         super(nombre, password, permisos);
     }
 
-    eliminarUser(nombre){
+    eliminarUser (nombre) {
         if (this.permisos.includes("admin")){
             console.log(`El user ${nombre} ha sido eliminado`)
         }
     }
 }
 
-const user1 = new Mod("Jesus","12234",["editar"]);
-user1.borrarPos(8);
+const user1 = new Mod ("Jesus","12234",["editar"]);
+user1.borrarPos(4);
 
 const newJesus = new Admin ("Admin","admin123",["admin","editar","eliminarUsers"]);
 newJesus.eliminarUser("user1");
+
+
+//? Creando modulos estaticos
